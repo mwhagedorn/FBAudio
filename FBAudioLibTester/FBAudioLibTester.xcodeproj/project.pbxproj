@@ -15,7 +15,6 @@
 		4C24257913D801E80090C07A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C24257813D801E80090C07A /* AVFoundation.framework */; };
 		4C355CD213DBE3F600715991 /* FBSoundTouchAVAssetPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C355CD113DBE3F600715991 /* FBSoundTouchAVAssetPlayer.mm */; };
 		4C355CD313DBE3F600715991 /* FBSoundTouchAVAssetPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C355CD113DBE3F600715991 /* FBSoundTouchAVAssetPlayer.mm */; };
-		4C60992313DBECE1008C18B4 /* SoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C60992213DBECE1008C18B4 /* SoundTouch.framework */; };
 		4C686D4C13DB8D5100C565AF /* FBAVAssetPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C686D4B13DB8D5100C565AF /* FBAVAssetPlayer.m */; };
 		4C686D4D13DB8D5100C565AF /* FBAVAssetPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C686D4B13DB8D5100C565AF /* FBAVAssetPlayer.m */; };
 		4CB3BDDF13D7B55C0072063E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3BDDE13D7B55C0072063E /* UIKit.framework */; };
@@ -34,6 +33,8 @@
 		4CB3BE0B13D7B55C0072063E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3BE0913D7B55C0072063E /* InfoPlist.strings */; };
 		4CB3BE0D13D7B55C0072063E /* FBAudioLibTesterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3BE0C13D7B55C0072063E /* FBAudioLibTesterTests.h */; };
 		4CB3BE0F13D7B55C0072063E /* FBAudioLibTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3BE0E13D7B55C0072063E /* FBAudioLibTesterTests.m */; };
+		AF1B0E921647D7F900B24DA9 /* libSoundTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF593D1D1645D2040075D2C3 /* libSoundTouch.a */; };
+		AFD35F481647DE0300EC17D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD35F471647DE0200EC17D2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4CB3BDD913D7B55C0072063E;
 			remoteInfo = FBAudioLibTester;
+		};
+		AF593D1C1645D2040075D2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF593CC71645CD870075D2C3;
+			remoteInfo = SoundTouch;
+		};
+		AF593D1E1645D2040075D2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF593CD81645CD880075D2C3;
+			remoteInfo = SoundTouchTests;
+		};
+		AF593D201645D2150075D2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF593CC61645CD870075D2C3;
+			remoteInfo = SoundTouch;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,7 +79,6 @@
 		4C24257A13D80B750090C07A /* FBAudioLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBAudioLib.h; path = ../../FBAudioLib/FBAudioLib.h; sourceTree = "<group>"; };
 		4C355CD013DBE3F600715991 /* FBSoundTouchAVAssetPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSoundTouchAVAssetPlayer.h; path = ../../FBAudioLib/FBSoundTouchAVAssetPlayer.h; sourceTree = "<group>"; };
 		4C355CD113DBE3F600715991 /* FBSoundTouchAVAssetPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FBSoundTouchAVAssetPlayer.mm; path = ../../FBAudioLib/FBSoundTouchAVAssetPlayer.mm; sourceTree = "<group>"; };
-		4C60992213DBECE1008C18B4 /* SoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SoundTouch.framework; path = ../FBAudioLib/SoundTouch.framework; sourceTree = "<group>"; };
 		4C686D4A13DB8D5100C565AF /* FBAVAssetPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBAVAssetPlayer.h; path = ../../FBAudioLib/FBAVAssetPlayer.h; sourceTree = "<group>"; };
 		4C686D4B13DB8D5100C565AF /* FBAVAssetPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBAVAssetPlayer.m; path = ../../FBAudioLib/FBAVAssetPlayer.m; sourceTree = "<group>"; };
 		4CB3BDDA13D7B55C0072063E /* FBAudioLibTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAudioLibTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +101,8 @@
 		4CB3BE0A13D7B55C0072063E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CB3BE0C13D7B55C0072063E /* FBAudioLibTesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAudioLibTesterTests.h; sourceTree = "<group>"; };
 		4CB3BE0E13D7B55C0072063E /* FBAudioLibTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAudioLibTesterTests.m; sourceTree = "<group>"; };
+		AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoundTouch.xcodeproj; path = ../../SoundTouch/SoundTouch.xcodeproj; sourceTree = "<group>"; };
+		AFD35F471647DE0200EC17D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1B0E921647D7F900B24DA9 /* libSoundTouch.a in Frameworks */,
 				4C10964D13D903C600BED9B6 /* MediaPlayer.framework in Frameworks */,
 				4C10964B13D903BB00BED9B6 /* CoreMedia.framework in Frameworks */,
 				4C10964713D8DD1500BED9B6 /* AudioToolbox.framework in Frameworks */,
@@ -94,7 +118,6 @@
 				4CB3BDDF13D7B55C0072063E /* UIKit.framework in Frameworks */,
 				4CB3BDE113D7B55C0072063E /* Foundation.framework in Frameworks */,
 				4CB3BDE313D7B55C0072063E /* CoreGraphics.framework in Frameworks */,
-				4C60992313DBECE1008C18B4 /* SoundTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +153,7 @@
 		4CB3BDCF13D7B55C0072063E = {
 			isa = PBXGroup;
 			children = (
+				AFD35F471647DE0200EC17D2 /* Default-568h@2x.png */,
 				4C10964C13D903C600BED9B6 /* MediaPlayer.framework */,
 				4C10964A13D903BB00BED9B6 /* CoreMedia.framework */,
 				4C10964613D8DD1500BED9B6 /* AudioToolbox.framework */,
@@ -137,6 +161,7 @@
 				4CB3BE0613D7B55C0072063E /* FBAudioLibTesterTests */,
 				4CB3BDDD13D7B55C0072063E /* Frameworks */,
 				4CB3BDDB13D7B55C0072063E /* Products */,
+				AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,7 +177,6 @@
 		4CB3BDDD13D7B55C0072063E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C60992213DBECE1008C18B4 /* SoundTouch.framework */,
 				4C24257813D801E80090C07A /* AVFoundation.framework */,
 				4CB3BDDE13D7B55C0072063E /* UIKit.framework */,
 				4CB3BDE013D7B55C0072063E /* Foundation.framework */,
@@ -207,6 +231,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AF593D151645D2040075D2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF593D1D1645D2040075D2C3 /* libSoundTouch.a */,
+				AF593D1F1645D2040075D2C3 /* SoundTouchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +254,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AF593D211645D2150075D2C3 /* PBXTargetDependency */,
 			);
 			name = FBAudioLibTester;
 			productName = FBAudioLibTester;
@@ -264,6 +298,12 @@
 			mainGroup = 4CB3BDCF13D7B55C0072063E;
 			productRefGroup = 4CB3BDDB13D7B55C0072063E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AF593D151645D2040075D2C3 /* Products */;
+					ProjectRef = AF593D141645D2040075D2C3 /* SoundTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4CB3BDD913D7B55C0072063E /* FBAudioLibTester */,
@@ -271,6 +311,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AF593D1D1645D2040075D2C3 /* libSoundTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSoundTouch.a;
+			remoteRef = AF593D1C1645D2040075D2C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF593D1F1645D2040075D2C3 /* SoundTouchTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SoundTouchTests.octest;
+			remoteRef = AF593D1E1645D2040075D2C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4CB3BDD813D7B55C0072063E /* Resources */ = {
@@ -280,6 +337,7 @@
 				4CB3BDE913D7B55C0072063E /* InfoPlist.strings in Resources */,
 				4CB3BDF213D7B55C0072063E /* MainWindow.xib in Resources */,
 				4CB3BDF813D7B55C0072063E /* FBAudioLibTesterViewController.xib in Resources */,
+				AFD35F481647DE0300EC17D2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +400,11 @@
 			isa = PBXTargetDependency;
 			target = 4CB3BDD913D7B55C0072063E /* FBAudioLibTester */;
 			targetProxy = 4CB3BE0413D7B55C0072063E /* PBXContainerItemProxy */;
+		};
+		AF593D211645D2150075D2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundTouch;
+			targetProxy = AF593D201645D2150075D2C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,6 +490,7 @@
 		4CB3BE1313D7B55C0072063E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Aural\"",
@@ -436,8 +500,10 @@
 				GCC_PREFIX_HEADER = "FBAudioLibTester/FBAudioLibTester-Prefix.pch";
 				HEADER_SEARCH_PATHS = FBAudioLib;
 				INFOPLIST_FILE = "FBAudioLibTester/FBAudioLibTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -445,6 +511,7 @@
 		4CB3BE1413D7B55C0072063E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Aural\"",
@@ -454,8 +521,10 @@
 				GCC_PREFIX_HEADER = "FBAudioLibTester/FBAudioLibTester-Prefix.pch";
 				HEADER_SEARCH_PATHS = FBAudioLib;
 				INFOPLIST_FILE = "FBAudioLibTester/FBAudioLibTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
