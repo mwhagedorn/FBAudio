@@ -43,7 +43,8 @@ An alternative method would be to first copy the song to a sandboxed file and th
 
 I wrote this while reading Chris Adamson's [*VTM_AViPodReader*](http://www.subfurther.com/blog/2010/12/13/from-ipod-library-to-pcm-samples-in-far-fewer-steps-than-were-previously-necessary/) application. Much of this code is influenced by Chris' work.
 
-The **SoundTouch.framework** included here was pulled from Karl Stenerud's [Aural](https://github.com/kstenerud/Aural) repo, saving me the time to build one myself.
+The **SoundTouch** static library is built via the project
+[SoundTouch](https://github.com/mwhagedorn/SoundTouch) repo
 
 ## License
 
