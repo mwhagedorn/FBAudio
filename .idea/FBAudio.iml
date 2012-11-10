@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/.idea">
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudio.xcworkspace">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudio.xcworkspace" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBAVAssetPlayer.h">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBAVAssetPlayer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBAVAssetPlayer.m">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBAVAssetPlayer.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBAudioLib.h">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBAudioLib.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBAudioQueuePlayer.h">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBAudioQueuePlayer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBAudioQueuePlayer.m">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBAudioQueuePlayer.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBDebugSupport.h">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBDebugSupport.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBSoundTouchAVAssetPlayer.h">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBSoundTouchAVAssetPlayer.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLib/FBSoundTouchAVAssetPlayer.mm">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLib/FBSoundTouchAVAssetPlayer.mm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/FBAudioLibTester">
+      <sourceFolder url="file://$MODULE_DIR$/FBAudioLibTester" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../SoundTouch">
+      <sourceFolder url="file://$MODULE_DIR$/../SoundTouch" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

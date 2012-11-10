@@ -108,10 +108,15 @@ static void HandleOutputBuffer( void *inData, AudioQueueRef inAQ, AudioQueueBuff
     audioDesc.mFormatID = kAudioFormatLinearPCM;
     audioDesc.mFormatFlags = kAudioFormatFlagsCanonical;
     audioDesc.mChannelsPerFrame = 2;
+
 	audioDesc.mFramesPerPacket = 1;
 	audioDesc.mBitsPerChannel = 16;
 	audioDesc.mBytesPerPacket = 4;
-	audioDesc.mBytesPerFrame = 4;    
+	audioDesc.mBytesPerFrame = 4;
+    //ok canonicial implies interleaved, 2 channels, 16 bits per channel == 32 bits == 4 bytesPerFrame/Packet
+    //TODO why isnt this ABSD populated from the file selected?
+    //TODO using AudioFileGetProperty, kAudioFilePropertyDataFormat?
+
 }
 
 -(void)cleanupAudioQueue
